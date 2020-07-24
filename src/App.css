@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arimo', sans-serif;
+  line-height: 1.4;
+  background-color: #282A36;
+}
+
+a {
+  color: rgb(88, 153, 153);
+  text-decoration: none;
+}
+
+.navlink {
+  color: #6e6d8c;
+}
+
+.navlink:hover {
+  color:#a35bc0;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.add-submit-form {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  margin: 1em 1em;
+  flex-direction: column;
+}
+
+.adding-todo {
+  flex: 10;
+  background-color: #090821;
+  padding: 0.5rem 0.5rem;
+  margin-top: 1rem;
+  color: gray;
+  border: 0.5px solid #6D4E79;
+  border-radius: 0.1rem;
+}
+
+.submit-btn {
+  flex: 1;
+  background-color: #090821;
+  padding: 0.5rem 0.5rem;
+  margin-top: 0.5em;
+  color: gray;
+  border-radius: 0.1rem;
+  border: 0.5px solid #6D4E79; 
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  border-color: #a35bc0;
+}
+
+.adding-todo:hover {
+  border-color: #a35bc0;
+}
+
+.adding-todo:active {
+  border-color: #a35bc0;
+}
+
+.custom-checkbox { 
+  padding-right: 1em;
+}
